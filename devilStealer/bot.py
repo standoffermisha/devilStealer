@@ -6,10 +6,10 @@ from telebot import types
 import string
 import random
 
-ADMIN_ID = "ID" # Your telegram id
+ADMIN_ID = "7603155900" # Your telegram id
 FILE_IO_API_URL = "https://file.io"
 
-bot = telebot.TeleBot("TOKEN") # Your bot token
+bot = telebot.TeleBot(7626918608:AAHiBzNBYAMvwzrVbYm3h-6UYdeh22zos4g) # Your bot token
 
 rand_title = ''.join(random.choice(string.ascii_lowercase) for i in range(10))
 os.system(f"title {rand_title}")
